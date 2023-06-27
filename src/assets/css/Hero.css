@@ -1,0 +1,30 @@
+@import url("https://fonts.cdnfonts.com/css/avenir");
+
+.hero {
+  background: linear-gradient(90deg, #ec7ab7 2.34%, #ec7a7a 107.48%);
+  height: 20rem;
+}
+
+.hero .img {
+  margin-top: 25px;
+}
+.hero .img-1 {
+  z-index: 10;
+}
+.hero .img-2 {
+  z-index: 9;
+  top: 13px;
+  left: 30px;
+}
+.hero h1 {
+  margin-top: 60px;
+}
+.hero h1,
+p {
+  font-family: "Avenir", sans-serif;
+}
+.hero p {
+  margin-top: 1px;
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+}
